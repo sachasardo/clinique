@@ -1,0 +1,111 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.bg-red {
+  background: $red;
+  color: white;
+}
+.bg-blue {
+  background: $blue;
+  color: white;
+}
+.bg-yellow {
+  background: $yellow;
+  color: white;
+}
+.bg-orange {
+  background: $orange;
+  color: white;
+}
+.bg-green {
+  background: $green;
+  color: white;
+}
+.bg-purple {
+  background: $purple;
+  color: white;
+}
+@import url("banner.css");
+@import url("footer.css");
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  color: #141414;
+  margin-top: 0;
+}
+
+.bg-blue {
+  background-color: #2871B0;
+  color: white;
+  font-weight: 300;
+}
+.bg-grey {
+  background-color: grey;
+}
+.bg-orange {
+  background-color: orange;
+}
+
+.text-padded {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.bg-blue h2 {
+  font-size: 30px;
+}
+
+.bg-blue p {
+  font-size: 16px;
+}
+.bg-white p {
+  font-size: 16px;
+}
+
+.img-circle {
+  height: 200;
+  width: 250;
+}
+#navbar {
+
+  /*background-color: transparent;*/
+  top: 0px;
+  bottom: 3px;
+  width: 100%;
+  position: absolute;
+
+  height: 50px;
+  text-align: right;
+}
+#navbar li{
+  border-left:1px #ccc solid;
+}
+#navbar li a{
+  margin: 5px 0;
+  font-size: 16px;
+  color: #2871B0;
+}
+#navbar li a:hover{
+  color: #4d4d4d;
+}
+.navbar-header{height: 55px;}
+.navbar-brand img{margin-left: 40px;}
+#chef {
+  padding: 30px;
+}
+#footer {
+
+}
+.bg-blue strong {
+  color: orange;
+}
+
+#center {
+  text-align: center;
+}
