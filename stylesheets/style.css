@@ -95,7 +95,7 @@ body {
   color: #4d4d4d;
 }
 .navbar-header{height: 55px;}
-.navbar-brand img{margin-left: 40px;}
+.navbar-brand img{margin-left: 54px; margin-top: -13px;}
 #chef {
   padding: 30px;
 }
